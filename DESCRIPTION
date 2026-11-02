@@ -1,0 +1,16 @@
+Package: descriptiveStats
+Title: Descriptive Statistics for Numeric Data
+Version: 0.0.0.9000
+Authors@R: 
+    person("Mutong", "Zhang", , "mandy.memory98@gmail.com", role = c("aut", "cre"))
+Description: Provide functions for calculating descriptive statics,
+    including mean, median, mode, 1st quartile, 3rd quartile, and
+    interquartile range. Ensures quality standards through handling edge
+    cases and providing error messages for invalid inputs.
+License: MIT + file LICENSE
+Config/roxygen2/version: 8.1.1
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+Suggests: 
+    testthat (>= 3.0.0)
+Config/testthat/edition: 3
